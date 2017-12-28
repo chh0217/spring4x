@@ -4,9 +4,34 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>spring4.x</groupId>
+    <groupId>com.smart</groupId>
     <artifactId>spring4.x</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.3.RELEASE</version>
+    </parent>
+    <modules>
+        <module>chapter2</module>
+        <module>chapter3</module>
+        <module>chapter4</module>
+        <module>chapter5</module>
+        <module>chapter6</module>
+        <module>chapter7</module>
+        <module>chapter8</module>
+        <module>chapter9</module>
+        <module>chapter10</module>
+        <module>chapter11</module>
+        <module>chapter12</module>
+        <module>chapter13</module>
+        <module>chapter14</module>
+        <module>chapter15</module>
+        <module>chapter16</module>
+        <module>chapter17</module>
+        <module>chapter18</module>
+        <module>chapter19</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
